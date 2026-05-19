@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./mazil.css">
+    <title>Job</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" style="width: 100%;">
+
+  <div class="container">
+
+  
+    <a class="navbar-brand" href="#">
+      <img src="./OIP.webp" width="70" style="border-radius:50%;" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  
+    <div class="collapse navbar-collapse" id="mynavbar">
+
+   
+      <ul class="navbar-nav mx-auto gap-3 text-center">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="./inde.html">Bosh qisim</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./manzil.html">Manzil</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./input.html">Ro'yxatdan o'tish</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./bizhaqimizda.html">Biz haqimizda</a>
+        </li>
+
+      </ul>
+
+
+      <div class="d-flex justify-content-center mt-3 mt-lg-0">
+        <button class="login-btn">OLISH</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</nav>
+<section class="contact">
+  <h2>Bizning manzil</h2>
+
+  <div class="contact-wrap">
+
+    <div class="contact-box">
+      <h3> Manzil</h3>
+      <p>Toshkent shahri, Chilonzor tumani</p>
+    </div>
+
+    <div class="contact-box">
+      <h3> Telefon</h3>
+      <p>+998 90 123 45 67</p>
+    </div>
+
+    <div class="contact-box">
+      <h3>7:30</h3>
+      <p>23:00</p>
+
+      
+    </div>
+     <div class="contact-box">
+
+<button type="button" onclick="basketOpen()" class="tn">Mazil</button>
+
+
+     </div>
+     
+  </div>
+
+
+
+    <p class="contact-text">
+    Bizning maqsadimiz — har bir insonga o‘ziga mos ish topishda yordam berish.
+    Agar sizda savollar bo‘lsa yoki ish e’lonlari bo‘yicha murojaat qilmoqchi bo‘lsangiz,
+    biz bilan bemalol bog‘laning. Biz har doim sizga tez va sifatli javob berishga tayyormiz.
+  </p>
+
+</section>
+
+<footer class="footer">
+  <div class="footer-wrap">
+
+    <div class="f-box">
+      <h2>Jobs</h2>
+      <p>Tez, oson va ishonchli ish topish platformasi.</p>
+    </div>
+
+    <div class="f-box">
+      <h3>Bo‘limlar</h3>
+      <a href="#">Bosh sahifa</a>
+      <a href="#">Ishlar</a>
+      <a href="#">Aloqa</a>
+    </div>
+
+    <div class="f-box">
+      <h3>Aloqa</h3>
+      <p> jhvso@mail.com</p>
+      <p> +998 90 999 99 99</p>
+    </div>
+
+  </div>
+
+<div onclick="basketClosse()" class="bosket" id="modal" >
+  <div class="bosket-box" onclick="event.stopPropagation()">
+<iframe 
+  src="https://www.google.com/maps?q=Tashkent&output=embed"
+  width="650" 
+  height="400">
+</iframe>
+    <ul class="bosket-el"></ul>
+ 
+  </div>
+</div>
+
+<script src="./mazil.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

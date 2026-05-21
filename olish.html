@@ -58,52 +58,79 @@
 
 </nav>
 <body class="bg-light py-5">
+<div class="container">
+    <div class="row justify-content-center align-items-center g-4">
 
-    <div class="container">
-        <div class="row justify-content-center align-items-center g-4">
-            
-          
-            <div class="col-md-6 text-center">
-                <img src="https://static.tildacdn.info/tild3363-3935-4232-b130-646431323465/photo_2023-12-07_11-.jpg" 
-                     alt="Yetkazib berish" 
-                     class="img-fluid rounded-3">
-            </div>
-
-
-            <div class="col-md-5">
-                <div class="card p-4 rounded-3">
-                    <h3 class="text-primary mb-4 fw-bold text-center">Buyurtma berish</h3>
-                    
-                    <form action="/yetkazib-berish" method="POST">
-                        
-                 
-                        <div class="mb-3">
-                            <label for="ism" class="form-label text-secondary">Ismingiz</label>
-                            <input type="text" class="form-control" id="ism" name="ism" placeholder="Ali Valiyev" required>
-                        </div>
-
-                   
-                        <div class="mb-3">
-                            <label for="manzil" class="form-label text-secondary">Yetkazib berish manzili</label>
-                            <input  class="form-control" placeholder="Toshkent sh., Chilonzor" required>
-                        </div>
-
-                        <div class="mb-4">
-                            <label for="email" class="form-label text-secondary">Email manzilingiz</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="misol@gmail.com" required>
-                        </div>
-
-                
-                        
-                      
-                      <a  href="./a.html" type="submit" class="btn btn-primary w-100 py-2 fw-bold"> Yetkazib berish</a>
-                        
-                    </form>
-                </div>
-            </div>
-
+        <div class="col-md-6 text-center">
+            <img src="https://static.tildacdn.info/tild3363-3935-4232-b130-646431323465/photo_2023-12-07_11-.jpg"
+                 alt="Yetkazib berish"
+                 class="img-fluid rounded-3">
         </div>
+
+        <div class="col-md-5">
+            <div class="card p-4 rounded-3">
+                <h3 class="text-primary mb-4 fw-bold text-center">
+                    Buyurtma berish
+                </h3>
+
+                <form id="myForm">
+
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">
+                            Ismingiz
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="ism"
+                            placeholder="Ali Valiyev"
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label text-secondary">
+                            Yetkazib berish manzili
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="manzil"
+                            placeholder="Toshkent sh., Chilonzor"
+                        >
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label text-secondary">
+                            Email manzilingiz
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="misol@gmail.com"
+                        >
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary w-100 py-2 fw-bold"
+                    >
+                        Yetkazib berish
+                    </button>
+
+                </form>
+            </div>
+        </div>
+
     </div>
+</div>
+
+<script>
+
+</script>
 <footer class="footer">
   <div class="footer-wrap">
 
@@ -126,5 +153,6 @@
     </div>
 
   </div>
+  <script src="./olish.js"></script>
 </body>
 </html>

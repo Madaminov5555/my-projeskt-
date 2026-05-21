@@ -12,7 +12,21 @@ const getData = async (urls) => {
        console.log("Xato:", err);
    }
 }
+function tekshirBasket() {
 
+    const basket = document.querySelector(".bosket-el");
+
+    if (basket.children.length === 0) {
+
+        alert("Xatolik");
+
+    } else {
+
+        window.location.href = "./olish.html";
+
+    }
+
+}
 function renderData() {
   
     document.getElementById("text1").innerHTML = usersData[0].name;

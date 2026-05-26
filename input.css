@@ -202,7 +202,15 @@
         width: 60px;
     }
 
- 
+     .footer{
+        position: static;
+    }
+
+    .footer-wrap{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
     .overlay{
         position: static !important;
         text-align: center;

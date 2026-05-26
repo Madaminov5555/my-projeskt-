@@ -129,4 +129,13 @@
     .popup-box{
         width: 90%;
     }
+        .footer{
+        position: static;
+    }
+
+    .footer-wrap{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }

@@ -144,7 +144,6 @@ del {
     transition: 0.3s;
 }
 
-
 .login-btn:hover {
     background: #0056b3;
     transform: scale(1.05);
